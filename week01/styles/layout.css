@@ -1,9 +1,9 @@
 body{
     display: grid;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 nav{
     display: flex;
-    background-color: aqua;
+    background-color: gray;
 }
