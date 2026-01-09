@@ -1,0 +1,23 @@
+nav{
+    background-color: gray;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header span{
+    display: block;
+}
+
+nav:hover{
+    text-decoration: overline;
+}
+
+main{
+    width: 95%;
+    display: grid;
+    align-content: center;
+}
