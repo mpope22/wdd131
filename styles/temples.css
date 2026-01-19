@@ -1,0 +1,58 @@
+header{
+    background-color: lightblue;
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20pt;
+}
+
+nav{
+    display: flex;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.menu{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+
+.menu.show{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#hamburgericon{
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#hamburgericon::after {
+    content: "X";
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#hamburgericon.change .button-text{
+    display: none;
+}
+
+#hamburgericon.change::after{
+    display: block;
+}
