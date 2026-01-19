@@ -15,6 +15,7 @@ nav a:hover{
 }
 
 main{
+    display: grid;
     max-width: 800px;
     margin: 0 auto;
     grid-template-columns: repeat(1, 1fr);
