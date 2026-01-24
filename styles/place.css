@@ -47,7 +47,7 @@ main{
     margin-top: 875px;
 }
 
-.data .titles{
+.data.titles{
     display: grid;
     text-wrap: wrap;
     text-align: right;
@@ -71,7 +71,7 @@ main{
     justify-items: left;
 }
 
-.weather .titles{
+.weather.titles{
     margin-top: 0px;
     text-wrap: wrap;
     text-align: right;
