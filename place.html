@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <meta name="author" content="Matthew Pope">
+    <meta name="description" content="The details of my home country the United State of America">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <h1>United States of America</h1>
+            <picture>
+                <source media="(min-width: 1500px)" srcset="images/bald-eagle-large.webp">
+                <img src="images/bald-eagle-small.webp" alt="Bald Eagle" width="600px" height="400px">
+            </picture>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <header>
+                Area: <br>
+                Population: <br>
+                Capital: <br>
+                Languages: <br>
+                Currency: <br>
+                Time Zone: <br>
+                Calling Code: <br>
+                Internet TLD: 
+            </header>
+            <p>
+                3,796,742 sq mi<br>
+                343,137,223<br>
+                Washington D.C.<br>
+                English<br>
+                U.S. dollar<br>
+                UTC-4-10<br>
+                +1<br>
+                .us
+            </p>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather.svg" alt="sun and clouds">
+            <header>
+                Temperature:<br>
+                Conditions:<br>
+                Wind:<br>
+                Wind Chill: 
+            </header>
+            <p>
+                49&deg;F<br>
+                partly cloudy<br>
+                5mph<br>
+                <span id="windchill"></span>&deg;F
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> Matthew Pope United States</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>
