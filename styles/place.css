@@ -47,7 +47,7 @@ main{
     margin-top: 875px;
 }
 
-.data h3{
+.data .titles{
     display: grid;
     text-wrap: wrap;
     text-align: right;
@@ -71,10 +71,12 @@ main{
     justify-items: left;
 }
 
-.weather h3{
+.weather .titles{
+    margin-top: 0px;
     text-wrap: wrap;
     text-align: right;
     justify-content: space-around;
+    font-weight: 700;
 }
 
 .weather p{
