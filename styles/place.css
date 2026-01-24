@@ -47,7 +47,7 @@ main{
     margin-top: 875px;
 }
 
-.data header{
+.data h3{
     display: grid;
     text-wrap: wrap;
     text-align: right;
@@ -71,7 +71,7 @@ main{
     justify-items: left;
 }
 
-.weather header{
+.weather h3{
     text-wrap: wrap;
     text-align: right;
     justify-content: space-around;
