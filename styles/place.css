@@ -1,45 +1,58 @@
 :root {
-    --primary-color: #003366;
-    --accent-color: #c8102e;
-    --card-bg: rgba(255, 255, 255, 0.9);
+    --primary-color: #003366; 
+    --accent-color: #c8102e;  
+    --font-family: 'Roboto', Arial, sans-serif;
+    --background-color: #f4f4f4;
+    --card-bg: rgba(255, 255, 255, 0.8);
     --padding: 1rem;
 }
 
 body {
     margin: 0;
-    font-family: sans-serif;
-    background-color: #f0f0f0;
+    padding: var(--padding);
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header h1 {
+    background-color: red;
+    color: white; 
+    text-align: center;
+    padding: 0.5rem; 
+    margin: 0 0 1rem 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.5rem;
 }
 
 main {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    padding: var(--padding);
-}
-
-.hero {
-    position: relative;
     width: 100%;
-    text-align: center;
-    color: var(--accent-color);
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 .data, .weather {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    position: static; 
+    width: 100%;
+    box-sizing: border-box; 
     background-color: var(--card-bg);
     padding: var(--padding);
     border-radius: 8px;
-    width: 100%;
-    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
 }
 
 .data h2, .weather h2 {
@@ -58,26 +71,18 @@ main {
     text-align: left;
 }
 
-.weather {
-    background-color: rgba(0, 0, 255, 0.3);
+.weather img {
+    width: 50px;
+    height: auto;
 }
 
-.data{
-    background-color: rgba(255, 255, 255, 0.3);
+h2::after {
+    content: " us";
+    font-size: 0.8rem;
 }
 
 footer {
+    margin-top: 1.5rem;
     text-align: center;
-    padding: 2rem 0;
-    font-size: 0.9rem;
-}
-
-header h1 {
-    background-color: red; 
-    color: white; 
-    text-align: center;
-    padding: 0.5rem; 
-    margin: 0;
-    width: 78%;
-    margin-left: 160px;
+    padding: 1rem 0;
 }
