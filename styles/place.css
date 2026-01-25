@@ -103,3 +103,8 @@ footer{
     margin-bottom: 0px;
     margin-top: 80px;
 }
+
+h2::after{
+    content: " us";
+    font-size: 0.8rem;
+}
