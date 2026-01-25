@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #003366; 
+    --primary-color: rgba(0, 0, 255, .4); 
     --accent-color: #c8102e;  
     --font-family: 'Roboto', Arial, sans-serif;
     --background-color: #f4f4f4;
-    --card-bg: rgba(255, 255, 255, 0.8);
+    --card-bg: rgba(255, 255, 255, 0.4);
     --padding: 1rem;
 }
 
@@ -43,7 +43,7 @@ main {
     width: 100%;
 }
 
-.data, .weather {
+.data{
     position: static; 
     width: 100%;
     box-sizing: border-box; 
@@ -55,7 +55,19 @@ main {
     gap: 0.5rem;
 }
 
-.data h2, .weather h2 {
+.weather{
+        position: static; 
+    width: 100%;
+    box-sizing: border-box; 
+    background-color: var(--primary-color);
+    padding: var(--padding);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.data h2{
     grid-column: 1 / -1;
     margin: 0 0 1rem 0;
 }
