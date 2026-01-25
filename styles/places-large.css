@@ -7,10 +7,4 @@
     .hero{
         grid-column: 1/-1;
     }
-    .data{
-        grid-column: 1/-1;
-    }
-    .weather{
-        grid-column: 1/-1;
-    }
 }
