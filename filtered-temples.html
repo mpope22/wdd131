@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples album</title>
+    <meta name="description" content="an album of images of temples that are grouped into this one website">
+    <meta name="author" content="Matthew Pope">
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>Temple Album
+        <button class="hamburger" id="hamburgericon" aria-label="MENU" aria-expanded="false">
+            <span class="button-text">MENU</span>
+        </button>
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Temples
+        </h1>
+        <div id="temple-cards"></div>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> Matthew Pope</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>

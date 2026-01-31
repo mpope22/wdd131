@@ -1,0 +1,82 @@
+header{
+    background-color: lightblue;
+    display: block;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20pt;
+}
+
+nav{
+    display: flex;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    max-width: 800px;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#temple-cards{   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.menu{
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+
+.menu.show{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#hamburgericon{
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#hamburgericon::after {
+    content: "X";
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#hamburgericon.change .button-text{
+    display: none;
+}
+
+#hamburgericon.change::after{
+    display: block;
+}
+
+.temple-card{
+    background-color: lightgray;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.temple-card img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
