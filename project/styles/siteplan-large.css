@@ -1,0 +1,19 @@
+@media screen and (min-width: 800px){
+     main {
+        max-width: 1200px; 
+        margin: 0 auto;
+        
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px; 
+        padding: 20px;
+    }
+
+    nav {
+        padding: 20px 10%; 
+    }
+
+    .purpose, .scenarios {
+        padding: 2rem;
+        border-radius: 8px;
+    }
+}

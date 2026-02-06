@@ -1,0 +1,40 @@
+main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+}
+
+.purpose h2{
+    display: flex;
+    justify-content: center;
+}
+
+.scenarios h2{
+    display: flex;
+    justify-content: center;
+}
+
+.purpose{
+    padding-top: 1rem;
+    background-color: gray;
+}
+
+.scenarios{
+    padding-top: 1rem;
+    background-color: gray;
+}
