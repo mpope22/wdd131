@@ -6,10 +6,14 @@
     <title>Product Review Form</title>
     <link rel="stylesheet" href="styles/form.css">
     <script src="scripts/form.js" defer></script>
+    <meta name="description" content="Review our product here and let us know how we can do better!">
+    <meta name="author" content="Matthew Pope">
 </head>
 <body>
     <main>
-        <h1>Product Review</h1>
+        <header>
+            <h1>Product Review</h1>
+        </header>
         <form method="get" action="review.html">
             <label for="productName">Product Name</label>
             <select id="productName" name="productName" required>
@@ -19,24 +23,24 @@
         <legend>Overall Rating</legend>
         <div class="rating-container">
             <div class="rating-item">
-                <span>☆</span>
+                <label for="star1">☆</label>
                 <input type="radio" id="star1" name="rating" value="1" required>
             </div>
             <div class="rating-item">
-                <span>☆☆</span>
-                <input type="radio" id="star2" name="rating" value="2">
+                <label for="star2">☆☆</label>
+                <input type="radio" id="star2" name="rating" value="2" required>
             </div>
             <div class="rating-item">
-                <span>☆☆☆</span>
-                <input type="radio" id="star3" name="rating" value="3">
+                <label for="star3">☆☆☆</label>
+                <input type="radio" id="star3" name="rating" value="3" required>
             </div>
             <div class="rating-item">
-                <span>☆☆☆☆</span>
-                <input type="radio" id="star4" name="rating" value="4">
+                <label for="star4">☆☆☆☆</label>
+                <input type="radio" id="star4" name="rating" value="4" required>
             </div>
             <div class="rating-item"> 
-                <span>☆☆☆☆☆</span>
-                <input type="radio" id="star5" name="rating" value="5">
+                <label for="star5">☆☆☆☆☆</label>
+                <input type="radio" id="star5" name="rating" value="5" required>
             </div>
         </div>
     </fieldset>
