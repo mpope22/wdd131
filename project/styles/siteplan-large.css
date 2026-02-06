@@ -12,7 +12,7 @@
         padding: 20px 10%; 
     }
 
-    .purpose, .scenarios, .schema{
+    .purpose, .scenarios, .schema, .typography{
         padding: 2rem;
         border-radius: 8px;
     }
