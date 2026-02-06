@@ -7,7 +7,7 @@ main{
 h1{
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    background-color: #003049;
     margin-bottom: 0px;
     margin-top: 0px;
     font-size: 20pt;;
@@ -16,7 +16,7 @@ h1{
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: black;
+    background-color: #003049;
     padding: 15px;
 }
 
@@ -32,10 +32,19 @@ nav{
 
 .purpose{
     padding-top: 1rem;
-    background-color: gray;
+    background-color: #669bbc;
 }
 
 .scenarios{
     padding-top: 1rem;
-    background-color: gray;
+    background-color: #669bbc;
+}
+
+.schema h2{
+    display: flex;
+    justify-content: center;
+}
+
+.schema{
+    background-color: #669bbc;
 }
