@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become an Author</title>
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-large.css">
+    <meta name="description" content="Here you can input your information to join our team">
+    <meta name="author" content="Matthew Pope">
+    <script src="scripts/siteplan.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Monumental Publishing
+        </h1>
+        <nav>
+            <a href="siteplan.html" class="active">Home</a>
+            <a href="authors.html">Authors</a>
+            <a href="books.html">Books</a>
+            <a href="join.html">Become an Author</a>
+        </nav>
+        <div class="background">
+            <img src="images/books.webp">
+        </div> 
+    </header>
+    <main>    
+        <form method="get" action="apply.html">
+            <h2>
+                Join our Team
+            </h2>
+            <label for="position">Position</label>
+            <select id="position" name="position" required>
+                <option value="" disabled selected>Select Position</option>
+                <option value="">Writer</option>
+                <option value="">Editor</option>
+                <option value="">Marketing</option>
+            </select>
+            <label for="experience">Experience</label>
+            <input for="experience" type="text">
+            <label for="about">About You</label>
+            <input for="about" type="text">
+            <input type="submit" value="send application">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="year"></span> Matthew Pope, Utah, United States of America</p>
+        <p><span id="lastmodified"></span></p>
+    </footer>
+</body>
+</html>

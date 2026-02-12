@@ -12,8 +12,13 @@
         padding: 20px 10%; 
     }
 
-    .purpose, .scenarios, .schema, .typography, .wireframes{
+    .about, .mission, .books, .join, .wireframes{
         padding: 2rem;
         border-radius: 8px;
+        opacity: .8;
+    }
+    .background img{
+        position: absolute;
+        width: 100%;
     }
 }

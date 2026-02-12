@@ -20,36 +20,57 @@ nav{
     padding: 15px;
 }
 
-.purpose h2{
+.about h2{
     display: flex;
     justify-content: center;
 }
 
-.scenarios h2{
+.mission h2{
     display: flex;
     justify-content: center;
 }
 
-.purpose{
+.about{
     padding-top: 1rem;
     background-color: #669bbc;
 }
 
-.scenarios{
+.mission{
     padding-top: 1rem;
     background-color: #669bbc;
 }
 
-.schema h2, .typography h2{
+.books h2, .join h2{
     display: flex;
     justify-content: center;
 }
 
-.schema, .typography{
+.books, .join{
+    margin-top: 60px;
     background-color: #669bbc;
 }
 
-img{
-    width: 400px;
-    height: 600px;
+.background{
+    display: block;
+    opacity: .6;
+    width: 900px;
+    height: 100px;
+}
+
+form{
+    display: grid;
+    background-color: #4169e1;
+    opacity: .9;
+    width: 500px;
+    margin-left: 55%;
+    height: 400px;
+}
+
+form h2{
+    display: flex;
+    justify-content: center;
+}
+
+form label{
+    font-size: 20pt;
 }
