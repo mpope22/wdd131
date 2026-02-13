@@ -50,11 +50,10 @@ nav{
     background-color: #669bbc;
 }
 
-.background{
+.background img{
     display: block;
     opacity: .6;
-    width: 900px;
-    height: 100px;
+    width: 100%;
 }
 
 form{
@@ -73,4 +72,9 @@ form h2{
 
 form label{
     font-size: 20pt;
+}
+
+.profile{
+    background-color: #4169e1;
+    opacity: .9;
 }
