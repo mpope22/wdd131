@@ -27,4 +27,9 @@
         grid-column: 1/-1;
         margin: 40px auto;
     }
+
+    .book {
+        justify-self: center; 
+        align-self: start;
+    }
 }

@@ -45,12 +45,12 @@ nav{
     background-color: #669bbc;
 }
 
-.books h2, .join h2{
+.join h2{
     display: flex;
     justify-content: center;
 }
 
-.books, .join{
+.join{
     margin-top: 60px;
     background-color: #669bbc;
 }
@@ -122,4 +122,20 @@ form textarea {
 form textarea {
     min-height: 150px;
     resize: vertical;
+}
+
+.book {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
