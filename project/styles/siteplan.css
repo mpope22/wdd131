@@ -36,12 +36,12 @@ nav{
 }
 
 .about{
-    padding-top: 1rem;
+    margin-top: 60px;
     background-color: #669bbc;
 }
 
 .mission{
-    padding-top: 1rem;
+    margin-top: 60px;
     background-color: #669bbc;
 }
 
@@ -138,4 +138,16 @@ form textarea {
 h2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #003049;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
