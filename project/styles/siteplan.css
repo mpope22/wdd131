@@ -38,11 +38,15 @@ nav{
 .about{
     margin-top: 60px;
     background-color: #669bbc;
+    width: 100%;
+    padding: 20px;
 }
 
 .mission{
     margin-top: 60px;
     background-color: #669bbc;
+    width: 100%;
+    padding: 20px;
 }
 
 .join h2, .books h2{
@@ -53,6 +57,8 @@ nav{
 .join, .books, .mission{
     margin-top: 60px;
     background-color: #669bbc;
+    width: 100%;
+    padding: 20px;
 }
 
 .background img{
