@@ -45,7 +45,7 @@ nav{
     background-color: #669bbc;
 }
 
-.join h2{
+.join h2, .books h2{
     display: flex;
     justify-content: center;
 }
